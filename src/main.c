@@ -13,6 +13,8 @@ void input(){
     printf("Enter some text:\n");
     fflush(stdout);
     scanf("%s", buffer);
+    printf("%p", &other);
+    fflush(stdout);
     printf("You entered: %s\n", buffer);
     fflush(stdout);
 }
